@@ -11,7 +11,7 @@ var c = count();
 var i = 0;
 while(i < 10) {
 	(function(i) {
-		setTimeout(c, 1000);
+		setTimeout(c, i * 1000);
 	})(i);
 	i++;
 }
